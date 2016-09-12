@@ -1,7 +1,7 @@
 # SocketChatC++
 * This is http/1 Chat System
 
-# how to use
+# How to use
 * open linux terminal(ctrl + alt + t)
 * open two instant terminal for server and client separately.
 * In one terminal compile server file via- gcc ecoserver.cpp -o server
