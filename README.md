@@ -1,7 +1,22 @@
 # SocketChatC++
+* This is http/1 Chat System
 
-Download the source code and feel free to change the code.
-You can run it under linux. You want to customize, we are providing source code files.
-Change the file and complie it. We have also provided compiled file already.
-Enter localhost as server address and any port.
-Same as in client but same port number in both.
+# How to use
+* open linux terminal(ctrl + alt + t)
+* open two instant terminal for server and client separately.
+* In one terminal compile server file via- gcc ecoserver.cpp -o server
+* Run the server file via-    ./server [ip address of server] [port address of server]
+* In another terminal compile client file via- gcc ecoserver.cpp -o client
+* Run the client file via-    ./client [ip address of server] [port address of server]
+
+## First Client send Message.
+
+
+command 
+
+gcc ecoserver.cpp -o server
+./server 127.0.0.1 8080
+
+
+gcc ecoclient.cpp -o client 
+./client 127.0.0.1 8080
